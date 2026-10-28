@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn import preprocessing
 df = pd.read_csv('Data/insurance.csv')
-
 encoder = preprocessing.OneHotEncoder()
 scaler = preprocessing.StandardScaler()
 encoder.fit(df[['region']])
