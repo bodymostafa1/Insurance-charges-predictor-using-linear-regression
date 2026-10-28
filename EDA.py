@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import plotly.express as px
 import matplotlib.pyplot as plt
-df = pd.read_csv('insurance.csv')
+df = pd.read_csv('Data/insurance.csv')
 print(df.head())
 print(df.describe())
 fig = px.histogram(df,
